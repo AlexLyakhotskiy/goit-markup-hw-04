@@ -196,12 +196,9 @@ p {
   margin-right: 70px;
 }
 
-.social-box {
-  padding-top: 12px;
-}
-
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .social-text {
@@ -463,7 +460,7 @@ p {
 }
 
 .clients-list .clients-link {
-  display: inline-flex;
+  display: flex;
   width: 170px;
   height: 92px;
   color: var(--primary-icon-color);
